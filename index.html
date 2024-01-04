@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bus Arrival Information</title>
+    <script>
+        window.onload = function() {
+            document.getElementById("bus_stop_form").reset();
+        };
+    </script>
+</head>
+<body>
+    <form action="/bus-arrival" method="post">
+        <label for="bus_stop_name">Enter Bus Stop Name:</label><br>
+        <input type="text" id="bus_stop_name" name="bus_stop_name"><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
